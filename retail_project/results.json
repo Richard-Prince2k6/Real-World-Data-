@@ -1,0 +1,55 @@
+{
+  "raw_rows": 541909,
+  "cancelled_invoice_lines": 9288,
+  "valid_sales_lines": 397884,
+  "missing_customer_id_rows": 135080,
+  "date_start": "2010-12-01",
+  "date_end": "2011-12-09",
+  "unique_customers": 4338,
+  "unique_orders": 18532,
+  "countries": 37,
+  "net_sales": 8911407.904,
+  "average_order_value": 480.8659563997409,
+  "median_order_value": 303.03999999999996,
+  "repeat_customer_share_pct": 65.58321807284463,
+  "top_country": "United Kingdom",
+  "top_country_sales_share_pct": 82.0116375855664,
+  "top_month": "November 2011",
+  "top_month_sales": 1161817.3800000001,
+  "customer_segments": {
+    "Regular": 1832,
+    "One-time": 1493,
+    "Champions": 1013
+  },
+  "forecast_metrics": {
+    "holdout_days": 72,
+    "model_mae": 11146.279535788199,
+    "weekly_naive_mae": 13155.370833333332,
+    "model_rmse": 21713.08471739265,
+    "model_mape_nonzero_days_pct": 26.10373630869346
+  },
+  "top_countries": {
+    "United Kingdom": 7308391.5540000005,
+    "Netherlands": 285446.34,
+    "EIRE": 265545.9,
+    "Germany": 228867.14,
+    "France": 209024.05,
+    "Australia": 138521.31,
+    "Spain": 61577.11,
+    "Switzerland": 56443.95,
+    "Belgium": 41196.34,
+    "Sweden": 38378.33
+  },
+  "top_products": {
+    "PAPER CRAFT , LITTLE BIRDIE": 168469.6,
+    "REGENCY CAKESTAND 3 TIER": 142592.94999999998,
+    "WHITE HANGING HEART T-LIGHT HOLDER": 100448.15000000001,
+    "JUMBO BAG RED RETROSPOT": 85220.78,
+    "MEDIUM CERAMIC TOP STORAGE JAR": 81416.73000000001,
+    "POSTAGE": 77803.96,
+    "PARTY BUNTING": 68844.33,
+    "ASSORTED COLOUR BIRD ORNAMENT": 56580.34,
+    "Manual": 53779.93,
+    "RABBIT NIGHT LIGHT": 51346.2
+  }
+}

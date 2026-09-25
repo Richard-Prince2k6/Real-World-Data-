@@ -1,0 +1,44 @@
+{
+  "random_seed": 42,
+  "test_fraction": 0.2,
+  "classification": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9824561403508771,
+      "precision_benign": 0.9861111111111112,
+      "recall_benign": 0.9861111111111112,
+      "roc_auc_benign": 0.9953703703703703
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.9385964912280702,
+      "precision_benign": 0.9577464788732394,
+      "recall_benign": 0.9444444444444444,
+      "roc_auc_benign": 0.9467592592592593
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.9385964912280702,
+      "precision_benign": 0.9577464788732394,
+      "recall_benign": 0.9444444444444444,
+      "roc_auc_benign": 0.9940476190476191
+    }
+  ],
+  "regression": [
+    {
+      "model": "Linear Regression",
+      "r2": 0.4526027629719198,
+      "rmse": 53.85344583676591
+    },
+    {
+      "model": "Random Forest",
+      "r2": 0.44775322054792555,
+      "rmse": 54.091471048277754
+    },
+    {
+      "model": "Decision Tree",
+      "r2": 0.3263754171777956,
+      "rmse": 59.74081738077601
+    }
+  ]
+}
